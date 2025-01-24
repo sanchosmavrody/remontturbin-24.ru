@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /engine/go.php
+Disallow: /engine/download.php
+Disallow: /user/
+Disallow: /admin/
+Disallow: /newposts/
+Disallow: /statistics.html
+Disallow: /*subaction=userinfo
+Disallow: /*subaction=newposts
+Disallow: /*do=lastcomments
+Disallow: /*do=feedback
+Disallow: /*do=register
+Disallow: /*do=lostpassword
+Disallow: /*do=addnews
+Disallow: /*do=stats
+Disallow: /*do=pm
+Disallow: /*do=search
+Disallow: *pm_source=
+Clean-param: utm_source&utm_medium&utm_campaign
+Clean-param: aon_uuid
+Host: https://remontturbin-24.ru/
+Sitemap: https://remontturbin-24.ru/sitemap.xml
+Crawl delay: 10
