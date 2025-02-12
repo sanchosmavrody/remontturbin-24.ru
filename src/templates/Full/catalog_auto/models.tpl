@@ -383,13 +383,7 @@
                     <div id="MainMenu2">
                         <div class="list-group panel">
                             <div class="collapse in" id="demo3">
-
-
-                                [group=1]{include file="/engine/modules/center/autoTree_v2.php"}[/group]
-[not-group=1]{include file="/engine/modules/center/autoTree.php"}[/not-group]
-
-
-
+                                {include file="/engine/modules/center/autoTree_v2.php"}
                             </div>
                         </div>
                     </div>

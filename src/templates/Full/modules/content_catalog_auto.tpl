@@ -1,10 +1,6 @@
 <!-- Top Bar -->
 {include file="modules/header.tpl"}
-
-{*include file="engine/modules/catalog_auto.php"*}
-
 {content}
-
 {include file="modules/footer.tpl"}
 
 <!-- page -->
