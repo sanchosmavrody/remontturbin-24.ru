@@ -54,11 +54,14 @@ foreach ($rows as $row) {
 $items = [];
 $categories = [];
 foreach ($groupByManuf as $manuName => $Manuf) {
+    $Manuf['manuName'] = htmlspecialchars($Manuf['manuName']);
+    $Manuf['manuName'] = str_replace('&', '&amp;', $Manuf['manuName']);
     $categories[] = <<<XML
 <category id="1{$Manuf['manuId']}" parentId="1">{$Manuf['manuName']}</category>
 XML;
     $modelsList = '';
     foreach ($Manuf['models'] as $model) {
+        $model['modelname'] = str_replace('&', '&amp;', $model['modelname']);
         $YFrom = getStrDate($model['YFrom']);
         $YTo = getStrDate($model['YTo']);
         if (!$YTo)
@@ -96,16 +99,18 @@ SQL;
 $rows = $db->super_query($sql, true);
 
 
-
 foreach ($rows as $row) {
 
-    if(empty($row['year_to']))
-        $row['year_to']='произв.';
+    if (empty($row['year_to']))
+        $row['year_to'] = 'произв.';
+
+
+    $row['mark_name'] = str_replace('&', '&amp;', $row['mark_name']);
 
     $items[] = <<<XML
 <offer id="{$row['complectation_id']}" available="true">
-    <name>Ремонт турбин {$row['mark_name']} {$row['model_name']} ({$row['year_from']}-{$row['year_to']}) {$row['body_type']} {$row['drive']} привод {$row['engine-type']} {$row['horse-power']}л.с. ({$row['kvt-power']}кВт) от 2500 тыс. в Москве</name>
-    <vendor>{$row['mark_name']}</vendor>
+   <name>Ремонт турбин {$row['mark_name']} {$row['model_name']} ({$row['year_from']}-{$row['year_to']}) {$row['body_type']} {$row['drive']} привод {$row['engine-type']} {$row['horse-power']}л.с. ({$row['kvt-power']}кВт)</name> 
+   <vendor>{$row['mark_name']}</vendor>
     <model>{$row['model_name']}</model>
     <url>https://remontturbin-24.ru/catalog_auto/{$row['mark_id']}/{$row['model_id']}/{$row['generation_id']}/{$row['configuration_id']}/{$row['complectation_id']}/</url>
     <picture>https://ee-turbosklad.ru/templates/Full/img/result-img.png</picture>
