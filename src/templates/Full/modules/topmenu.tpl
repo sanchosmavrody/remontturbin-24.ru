@@ -10,7 +10,7 @@
             </ul>
         </li>
         <li>
-            <a href="/turbiny/">Каталог турбин</a>
+            <a href="/catalog_auto/">Каталог турбин</a>
 
         </li>
         <li>
