@@ -56,7 +56,7 @@
 
                 <h5 class="text-uppercase tb-margin-10 top-margin-20">
                     <span class="icon-settings3 text-primary "></span>
-                    Ремонт в рассрочку без процентов
+                    Ремонт <span style="color: #faad3d;">в рассрочку БЕЗ %</span>
                 </h5>
                 <p>Мы предоставляем рассрочку на 6 месяцев без процентов на монтаж, демонтаж и ремонт
                    турбины.</p>

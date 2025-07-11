@@ -163,9 +163,9 @@
 
                 <h5 class="text-uppercase tb-margin-10 top-margin-20">
                     <span class="icon-settings3 text-primary "></span>
-                    Ремонт в рассрочку
+                    Ремонт <span style="color: #faad3d;">в рассрочку БЕЗ %</span>
                 </h5>
-                <p>Мы предоставляем рассрочку на 12 месяцев на монтаж, демонтаж, ремонт турбины, а так же на запчасти и комплектующие.</p>
+                <p>Мы предоставляем рассрочку на 12 месяцев на монтаж, демонтаж, ремонт турбины, а также на запчасти и комплектующие.</p>
             </div>
             <div class="col-md-3 text-left animated fadeInLeft visible" data-animation="fadeInLeft">
                 <h5 class="text-uppercase tb-margin-10 top-margin-20">
@@ -316,7 +316,7 @@
 <!-- Scripts -->
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-<!-- Menu jQuery plugin --> 
+<!-- Menu jQuery plugin -->
 
 <script type="text/javascript" src="/js/hover-dropdown-menu.js"></script>
 <!-- Menu jQuery Bootstrap Addon -->
