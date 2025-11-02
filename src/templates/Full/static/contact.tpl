@@ -334,6 +334,21 @@
 
                 </div>
             </div><!-- map -->
+            <hr class="pad-10">
+            <div class="widget-title row text-center">
+                <h4 class="title">Реквизиты компании</h4>
+            </div>
+            <div class="footer__flex row text-center">
+                <div class="contact-block">
+                    <p class="company-requisites__text">
+                        Общество с ограниченной ответственностью «ШЕРИФ 24»<br>
+                        <strong>Юридический адрес:</strong> 107564, г. Москва, ул. Краснобогатырская, дом 2, строение 26, этаж 2, пом. 11<br>
+                        <strong>Фактический адрес:</strong> 107564, г. Москва, ул. Краснобогатырская, д. 2, строение 26–27<br>
+                        ОГРН: 1177746104436 от 06.02.2017 г. | ИНН: 9718046752
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
