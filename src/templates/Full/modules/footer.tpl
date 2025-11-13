@@ -71,6 +71,15 @@
 
             </div>
         </div>
+        <div class="container text-center">
+            <div classs="py-3  text-nowrap">
+                <a href="/politic.php?page=privacy">Политика конфиденциальности</a>
+                <span class="mx-2">|</span>
+                <a href="/politic.php?page=consent">Согласие на обработку ПД</a>
+                <span class="mx-2">|</span>
+                <a href="/politic.php?page=cookies">Политика Cookies</a>
+            </div>
+        </div>
     </div>
 
 </footer>
