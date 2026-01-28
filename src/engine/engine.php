@@ -1,7 +1,7 @@
 <?PHP
 /*
 =====================================================
- DataLife Engine - by SoftNews Media Group 
+ DataLife Engine - by SoftNews Media Group
 -----------------------------------------------------
  http://dle-news.ru/
 -----------------------------------------------------
@@ -1213,8 +1213,12 @@ elseif ($catalog != "") {
     } else {
         $do_ = 'main';
         require_once ROOT_DIR . '/engine/modules/center/SeoElements_init.php';
-        $metatags['description'] = $Description;
-        $titl_e = $Title;
+
+        //  если кастомный модуль вернул пустоту, берем данные из настроек DLE
+        $metatags['description'] = ($Description) ? $Description : $config['description'];
+
+        // То же самое для Title (заголовка), чтобы не был пустым
+        $titl_e = ($Title) ? $Title : $config['home_title'];
     }
 
 
